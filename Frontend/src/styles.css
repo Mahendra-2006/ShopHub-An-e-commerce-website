@@ -1,0 +1,469 @@
+.body{
+    width: 100%;
+    height: 100vh;
+}
+.headers{
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+}
+.headers h1{
+    position: relative;
+    left: -290px;
+    top: 5px;
+}
+ .input{
+    display: flex;
+ }
+ .input input{
+    position: relative;
+    height: 30px;
+    padding-left: 40px;
+    width: 400px;
+    top: 15px;
+ }
+ .input i{
+    position: absolute;
+    top: 18px;
+    left: 590px;
+    z-index: 1;
+ }
+.search{
+    position: relative;
+    top: 18px;
+    left: -35px;
+    z-index: 1;
+}
+.icons{
+    position: relative;
+    display: flex;
+    gap: 40px;
+    left: 300px;
+    top: 15px;
+}
+.categories{
+    display: flex;
+    cursor: pointer;
+    padding-left: 115px;
+    gap: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+.electronics:hover{
+    color: lightblue;
+}
+.electronics{
+    text-decoration: none;
+    color: white;
+}
+.clothing:hover{
+    color: lightblue;
+}
+.sports:hover{
+    color: lightblue;
+}
+.pageBody{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-basis: 19%;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit:contain;
+}
+.cart{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -30px;
+}
+.cart button{
+    border-radius: 10px;
+    height: fit-content;
+    cursor: pointer;
+}
+.cart button:hover{
+    color:red;
+    background-color: pink;
+}
+.form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+} 
+.email{
+    display: flex;
+}
+.password{
+    display: flex;
+}
+.email input{
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.password input{
+    position: relative;
+    left: 79px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.form button{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+.icons i{
+    cursor: pointer;
+    color: white;
+}
+.profile-headers{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.orders{
+    position: relative;
+    top: 25px;
+    gap: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    max-width: 100%;
+    border-bottom: 2px solid white;
+}
+.account{
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* .header{
+    position: relative;
+    top: -800px;
+} */
+.border{
+    position: relative;
+    border-bottom: 2px solid white;
+    top: -30px;
+    height: 50px;
+}
+.shopping-orders{
+    position: relative;
+    top: -10px;
+    border-bottom: 2px solid white;
+}
+.personal-details{
+    text-decoration: none;
+    color: white;
+}
+.personal-details:hover{
+    color: lightblue;
+}
+.forbodyalignment {
+    width: 350px;
+}
+.accountContent {
+    width: 100%; 
+    height: fit-content;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 25px;
+} 
+.alignment{
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.personalform{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formalignment{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.email p{
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.password p{
+    position: relative;
+    left: 79px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.name input{
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.name{
+    display: flex;
+}
+.name p{
+    position: relative;
+    left: 95px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.Edit{
+    position: relative;
+    left: 500px;
+    top: -160px;
+    height: fit-content;
+    border-radius: 5px;
+}
+.Save{
+    position: relative;
+    left: 500px;
+    top: -160px;
+    height: fit-content;
+    border-radius: 5px;
+}
+.phoneNumber{
+  display: flex;
+}
+.phoneNumber p{
+    position: relative;
+    left: 40px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.phoneNumber input{
+     position: relative;
+    left: 40px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.Cancel{
+    position: relative;
+    left: 520px;
+    top: -160px;
+    height: fit-content;
+    border-radius: 5px;
+}
+.Cancel:hover{
+    color: white;
+    background-color: red;
+}
+.cart-body{
+    display: flex;
+    flex-direction: column;
+}
+.cart-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 240px;
+    gap: 10px;
+
+}
+.cart-card{
+    display: flex;
+    width: 500px;
+    border: 2px solid white;
+    flex-basis: 19%;
+    padding: 10px;
+}
+.cart-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.cart-card button{
+    height: fit-content;
+    position: relative;
+    border-radius: 5px;
+    top: 130px;
+    right: 20px;
+}
+.cart-card button:hover{
+    background-color: red;
+}
+.cartName{
+    padding-top: 10px;
+    padding-left: 120px;
+}
+.cartwholepage{
+    display: flex;
+    gap: 300px;
+}
+.order-summary{
+    border: 2px solid white;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+.orders-details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    border-bottom: 2px solid gray;
+    gap: 10px;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+.shipping{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.dont_have_an_account{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: -20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -15px;
+}
+.register-name{
+    display: flex;
+}
+.register-name input{
+     position: relative;
+    width: 300px; 
+     left: 100px;
+    height: 30px;
+    padding-left: 10px;
+}
+.register-name h3{
+    position: relative;
+    left: 40px;
+    width: 150px;
+    height: 30px;
+}
+.register-email{
+    display: flex;
+}
+.register-email input{
+     position: relative;
+    width: 300px; 
+     left: 100px;
+    height: 30px;
+    padding-left: 10px;
+}
+.register-email h3{
+    position: relative;
+    left: 40px;
+    width: 150px;
+    height: 30px;
+}
+.register-password{
+    display: flex;
+}
+.register-password h3{
+    position: relative;
+    left: 40px;
+    width: 150px;
+    height: 30px;
+}
+.register-password input{
+     position: relative;
+     left: 100px;
+    width: 300px; 
+    height: 30px;
+    padding-left: 10px;
+}
+.register-phoneNumber{
+    display: flex;
+}
+.register-phoneNumber h3{
+    position: relative;
+    left: 10px;
+    width: fit-content;
+    height: 30px;
+}
+.register-phoneNumber input{
+     position: relative;
+     left: 80px;
+    width: 300px; 
+    height: 30px;
+    padding-left: 10px;
+}
+.register-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-danger{
+    color: red;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.elseCase h1{
+    color: white;
+}
